@@ -16,7 +16,7 @@ const Navbar = () => {
   const [searchfocus, setSearchfocus] = useState(false);
 
   return (
-    <nav className="sticky top-0 z-50 flex bg-white flex-col w-[100wh] shadow-xl">
+    <nav className="sticky top-0 z-50 flex flex-col w-full bg-white border shadow-xl">
       {/* Fist section */}
                       <div className="flex justify-between">
                       <div className="flex flex-col w-full gap-4 p-4 lg:flex-row lg:items-center md:ps-8 sm:ps-3 lg:ps-20 xl:ps-32">
@@ -105,13 +105,13 @@ const Navbar = () => {
           </div>
 
           <div className="flex items-center justify-center ">
-            <span className="text-xl font-normal text-slate-900">
+            <span className="text-xl font-normal text-slate-900 hover:underline">
               Gold With Lab Diamonds
             </span>
             {/* <ChevronDown /> */}
           </div>
 
-          <div className="flex items-center justify-center ">
+          <div className="flex items-center justify-center hover:underline">
             <span className="text-xl font-normal text-slate-900">
               GIVA GIFT Card
             </span>

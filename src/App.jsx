@@ -9,8 +9,8 @@ import Card from "./Components/Card/ProductList.jsx";
 function App() {
   return (
     <div className="border border-black ">
-    <Headers/>
-         <Navbar />
+      <Headers/>
+      <Navbar />
       <Banner/>
       <Card/>
       <Footer />

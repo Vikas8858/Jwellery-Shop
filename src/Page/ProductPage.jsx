@@ -261,11 +261,11 @@ const ProductPage = () => {
   }, [id]);
 
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center w-full ">
       <Navbar />
 
       {/* Floating message box */}
-      <div className="fixed bottom-5 right-5 z-20 p-5 bg-[#E9718B] rounded-full">
+      <div className="fixed bottom-5 right-5  z-20 p-5 bg-[#E9718B] rounded-full">
         <MessageSquare stroke="white" size={24} />
       </div>
 
@@ -301,7 +301,7 @@ const ProductPage = () => {
           </div>
 
           {/* Right Section - Details */}
-          <div className="flex flex-col justify-between w-full p-4 pt-6 lg:w-1/2">
+          <div className="relative flex flex-col justify-between w-full p-4 pt-6 lg:w-1/2">
             <div>
               {/* Price */}
               <div className="flex items-center gap-3">
