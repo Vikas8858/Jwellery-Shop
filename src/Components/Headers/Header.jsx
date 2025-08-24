@@ -1,5 +1,3 @@
-
-
 const Header = () => {
   return (
     <div className="flex items-center justify-center w-full py-2 bg-pink-300">
